@@ -12,7 +12,6 @@
         "phpstan/extension-installer": "^1.2",
         "phpunit/phpunit": "^9.5.26",
         "symplify/package-builder": "^11.2",
-        "symplify/symplify-kernel": "11.2.x-dev",
         "symplify/easy-ci": "^11.1",
         "symplify/easy-coding-standard": "^11.1",
         "rector/rector": "^0.15.10",
