@@ -34,7 +34,7 @@ final class AutowireArrayParameterCompilerPass implements CompilerPassInterface
      *
      * @var string[]
      */
-    private array $excludedFatalClasses = [
+    private const EXCLUDED_FATAL_CLASSES = [
         'Symfony\Component\Form\FormExtensionInterface',
         'Symfony\Component\Asset\PackageInterface',
         'Symfony\Component\Config\Loader\LoaderInterface',
@@ -104,7 +104,7 @@ final class AutowireArrayParameterCompilerPass implements CompilerPassInterface
             return true;
         }
 
-        if (in_array($resolvedClassName, $this->excludedFatalClasses, true)) {
+        if (in_array($resolvedClassName, self::EXCLUDED_FATAL_CLASSES, true)) {
             return true;
         }
 
