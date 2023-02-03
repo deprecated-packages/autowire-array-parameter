@@ -16,6 +16,7 @@
         "symplify/easy-coding-standard": "^11.1",
         "symplify/package-builder": "^11.2",
         "symplify/phpstan-extensions": "^11.1",
+        "symplify/symplify-kernel": "^11.2",
         "tomasvotruba/unused-public": "^0.0.34"
     },
     "autoload": {

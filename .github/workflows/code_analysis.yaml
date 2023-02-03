@@ -13,10 +13,6 @@ jobs:
             matrix:
                 actions:
                     -
-                        name: Require-dev symplify-kernel
-                        run: composer require --dev symplify/symplify-kernel
-
-                    -
                         name: 'PHPStan'
                         run: composer phpstan --ansi
 
