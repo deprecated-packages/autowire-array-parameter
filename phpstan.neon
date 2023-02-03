@@ -3,7 +3,6 @@ parameters:
 
     paths:
         - src
-        - config
         - tests
 
     excludePaths:

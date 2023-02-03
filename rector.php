@@ -22,7 +22,6 @@ return static function (RectorConfig $rectorConfig): void {
     ]);
 
     $rectorConfig->paths([
-        __DIR__ . '/config',
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ]);
@@ -30,7 +29,6 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->importNames();
 
     $rectorConfig->skip([
-        '*/scoper.php',
         '*/Source/*',
         '*/Fixture/*',
     ]);
